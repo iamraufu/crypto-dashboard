@@ -2,17 +2,20 @@
   font-family: 'Inter', sans-serif;
 }
 
+/* Sidebar */
 .bg-sidebar {
   background-color: white;
   min-height: 100vh;
   border-right: 1px solid lightgrey;
 }
 
+/* Main Dashboard */
 .bg-main-dashboard {
   background-color: #f0f8ff;
   min-height: 100vh;
 }
 
+/* Title */
 .title-text {
   font-size: 22px;
   font-weight: 600;
@@ -24,6 +27,16 @@
 .title-text-primary {
   color: #2F80ED
 }
-.title-text-secondary{
+
+.title-text-secondary {
   font-weight: 800;
+}
+
+/* Sidebar */
+.sidebar-item {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  /* margin-top: 2rem; */
+  /* padding: 8px 0px 4px 8px */
 }
