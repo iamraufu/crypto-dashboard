@@ -1,9 +1,12 @@
 import React from 'react';
+import TopBarDashboard from './TopBarDashboard';
+import Summary from './Summary';
 
 const MainDashboard = () => {
       return (
             <div>
-                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, magni? 
+                  <TopBarDashboard />
+                  <Summary />
             </div>
       );
 };
